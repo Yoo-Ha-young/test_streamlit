@@ -4,6 +4,7 @@ import numpy as np
 
 # 헤드라인
 st.write("# 보험료 예측")
+st.write("> 이것은 저의 멋진 빅데이터 웹앱입니다!")
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
