@@ -4,7 +4,7 @@ import numpy as np
 
 # 헤드라인
 st.write("# 보험료 예측")
-st.image('./green-checkbox-icon-isolated-on-white-background-vector-29007088.jpg')
+st.image('https://cdn4.vectorstock.com/i/1000x1000/70/88/green-checkbox-icon-isolated-on-white-background-vector-29007088.jpg')
 st.write("> 보험료 예측 프로그램입니다.")
 
 
