@@ -98,7 +98,7 @@ def evaluation(airline_test, pred):
 from sklearn.model_selection import GridSearchCV
 
 def xgb_tuning(train_set, test_set, parameters):
-    model = XGBClassifier()
+    xgb_model = XGBClassifier()
     grid = GridSearchCV(model, parameters, scoring="roc_auc", cv=5, n_jobs=-1, refit = True) # cv=K-fold
     grid.fit(train_set, test_set)
     pred= grid.predict(X_test)
