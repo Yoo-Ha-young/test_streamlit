@@ -4,11 +4,32 @@ import streamlit as st
 import joblib     
 
 
-def main_page():
-    st.markdown("# Main page 🎈")
-    st.sidebar.markdown("# Main page 🎈")
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
 
+st.write("# Welcome to Streamlit! 👋")
 
+st.sidebar.success("Select a demo above.")
+
+st.markdown(
+    """
+    Streamlit is an open-source app framework built specifically for
+    Machine Learning and Data Science projects.
+    **👈 Select a demo from the sidebar** to see some examples
+    of what Streamlit can do!
+    ### Want to learn more?
+    - Check out [streamlit.io](https://streamlit.io)
+    - Jump into our [documentation](https://docs.streamlit.io)
+    - Ask a question in our [community
+        forums](https://discuss.streamlit.io)
+    ### See more complex demos
+    - Use a neural net to [analyze the Udacity Self-driving Car Image
+        Dataset](https://github.com/streamlit/demo-self-driving)
+    - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+"""
+)
 
 # 첫 번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
@@ -56,9 +77,6 @@ predict_button = st.button("만족도 예측")
 st.write("---")
 
 
-
-
-
 # 예측 결과
 model_list = ['LR_model.pkl', 'KNN_model.pkl', 'DT_model.pkl', 'RandomForestClassifier_model.pkl', 'xgb_model.pkl', 'LightGBM_model.pkl']
 result_list = ["로지스틱 회귀 결과", "KNN 결과", "결정트리 결과", "랜덤 포레스트 결과", "XGBoost 결과", "LightGBM 결과"]
@@ -77,16 +95,3 @@ for i in range(1, 7):
     
 st.write("")                              
 st.markdown('**<center><span style="color: MidnightBlue; font-size:250%">Thank You!</span></center>**', unsafe_allow_html=True)
-
-
-def page2():
-    st.markdown("# Page 2 ❄️")
-    st.sidebar.markdown("# Page 2 ❄️")
-
-page_names_to_funcs = {
-    "Main Page": main_page,
-    "Page 2": page2,
-}
-
-selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
-page_names_to_funcs[selected_page]()
