@@ -1,8 +1,9 @@
 # Contents of ~/my_app/streamlit_app.py
 import streamlit as st
 
-st.markdown("# Main page 🎈")
-st.sidebar.markdown("# Main page 🎈")
+def main_page():
+    st.markdown("# Main page 🎈")
+    st.sidebar.markdown("# Main page 🎈")
 
 def page2():
     st.markdown("# Page 2 ❄️")
