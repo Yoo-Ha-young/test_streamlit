@@ -1,8 +1,3 @@
-my_app
-├── streamlit_app.py    <-- Your main script
-└── pages
-    ├── page_2.py       <-- New page 2!
-    └── page_3.py       <-- New page 3!
 # Contents of ~/my_app/streamlit_app.py
 import streamlit as st
 
