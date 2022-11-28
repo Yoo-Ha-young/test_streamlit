@@ -3,11 +3,11 @@ import numpy as np
 import streamlit as st
 import joblib
 
-Home.py # This is the file you run with "streamlit run"
-└─── pages/
-  └─── About.py # This is a page
-  └─── 2_Page_two.py # This is another page
-  └─── 3_😎_three.py # So is this
+my_app
+├── streamlit_buttons.py    
+└── pages
+    ├── streamlit_practice.py       
+    └── streamlit_apps.py      
    
    
 # 첫 번째 행
