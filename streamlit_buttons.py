@@ -31,12 +31,6 @@ st.markdown(
 """
 )
 
-import pandas as pd
-import numpy as np
-import streamlit as st
-import joblib     
-
-
 st.set_page_config(
     page_title="Hello",
     page_icon="👋",
@@ -64,7 +58,6 @@ st.markdown(
 """
 )
 
-streamlit run Hello.py
 
 # 첫 번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
