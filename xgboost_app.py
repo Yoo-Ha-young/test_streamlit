@@ -71,7 +71,6 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
 import numpy as np
-import seaborn as sns
 
 def evaluation(airline_test, pred):
     acc = accuracy_score(airline_test, pred)
