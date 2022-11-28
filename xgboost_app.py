@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 encoder = LabelEncoder()
 
 # XGBoost 에 필요한 라이브러리 임포트
-from xgboost.sklearn import XGBClassifier
+
 import xgboost as xgb
 
 # 훈련셋
