@@ -1,13 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import joblib
-
-my_app
-├── streamlit_buttons.py    <-- Your main script    
-└── pages
-    ├── streamlit_practice.py      <-- New page 2!       
-    └── streamlit_apps.py      <-- New page 3!      
+import joblib     
     
 def main_page():
     st.markdown("# Main page 🎈")
