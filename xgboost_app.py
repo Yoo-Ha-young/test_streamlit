@@ -12,7 +12,7 @@ encoder = LabelEncoder()
 
 # XGBoost 에 필요한 라이브러리 임포트
 
-import xgboost as xgb
+
 
 # 훈련셋
 airline_train = pd.read_csv("https://raw.githubusercontent.com/syriness/MiniProject_AirlineMachineLearning/main/train.csv", index_col=0)
