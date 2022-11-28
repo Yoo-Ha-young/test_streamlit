@@ -31,6 +31,8 @@ st.markdown(
 """
 )
 
+streamlit run Hello.py
+
 # 첫 번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
 
