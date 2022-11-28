@@ -3,11 +3,6 @@ import numpy as np
 import streamlit as st
 import joblib     
 
-Home.py # This is the file you run with "streamlit run"
-└─── pages/
-  └─── streamlit_buttons.py # This is a page
-  └─── 2_streamlit_buttons.py # This is another page
-
 
 def main_page():
     st.markdown("# Main page 🎈")
