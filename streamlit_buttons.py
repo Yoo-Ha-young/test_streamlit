@@ -3,18 +3,13 @@ import numpy as np
 import streamlit as st
 import joblib
 
-with st.container():
-   st.write("This is inside the container")
-
-   # You can call any Streamlit command, including custom components:
-   st.bar_chart(np.random.randn(50, 3))
-
-st.write("This is outside the container")
-
-
-st.title("항공기 만족도 예측 Practice")
-st.subheader("6가지의 머신러닝 모델을 활용하여 변수들을 바꾸어 예측해보기")
-
+Home.py # This is the file you run with "streamlit run"
+└─── pages/
+  └─── About.py # This is a page
+  └─── 2_Page_two.py # This is another page
+  └─── 3_😎_three.py # So is this
+   
+   
 # 첫 번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
 
