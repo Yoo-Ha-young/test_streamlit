@@ -104,7 +104,6 @@ def xgb_tuning(train_set, test_set, parameters):
     pred= grid.predict(X_test)
     return grid.best_params_, grid.best_score_, pred
 
-xgb_model = XGBClassifier(n_estimators=100, max_depth=7, learning_rate=0.3, subsample=1)
 xgb_model.fit(X_train, y_train)
 pred_xgb = xgb_model.predict(X_test)
 
