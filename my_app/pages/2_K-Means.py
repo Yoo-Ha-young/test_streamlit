@@ -1,6 +1,7 @@
 # Contents of ~/my_app/Airline_passenger_satisfaction.py
 import streamlit as st
 st.sidebar.markdown("# K-Means")
+st.title("K-Means")
 
 # 필요 라이브러리 import
 import pandas as pd
@@ -21,7 +22,7 @@ import shap
 # 데이터 읽어오기
 airline = pd.read_csv("https://raw.githubusercontent.com/syriness/MiniProject_AirlineMachineLearning/main/train.csv")
 
-st.write("")
+#st.write("")
 st.write("")
 st.write("")
 
