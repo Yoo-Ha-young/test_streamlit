@@ -1,11 +1,6 @@
 # Contents of ~/my_app/Airline_passenger_satisfaction.py
 import streamlit as st
 
-def main_page():
-   st.markdown("# Airline passenger satisfaction")
-   st.sidebar.markdown("# Airline passenger satisfaction")
-
-
 # # 필요 라이브러리 import
 # import pandas as pd
 # import matplotlib.pyplot as plt
