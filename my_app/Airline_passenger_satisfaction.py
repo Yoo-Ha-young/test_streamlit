@@ -23,7 +23,7 @@ st.image(image)
 # streamlit 앱 제목
 
 st.sidebar.markdown("# Practice")
-st.markdown('**<center><span style="color: #000000; font-size:250%">항공기 만족도 예측 Practice</span></center>**', unsafe_allow_html=True)
+st.markdown('**<center><span style="color: #000000; font-size:250%">항공기 만족도 예측 </span></center>**', unsafe_allow_html=True)
 st.markdown('**<center><span style="color: #999966; font-size:150%">6가지 머신러닝 모델 활용으로 변수들을 바꾸어 예측해보기</span></center>**', unsafe_allow_html=True)
 
 
@@ -32,7 +32,9 @@ st.markdown('**<center><span style="color: #999966; font-size:150%">6가지 머�
 # 데이터 읽어오기
 airline = pd.read_csv("https://raw.githubusercontent.com/syriness/MiniProject_AirlineMachineLearning/main/train.csv")
 
-st.header("데이터 확인")
+st.write("")
+st.write("")
+st.markdown('**<center><span style="color: #000000; font-size:50%">Airline passenger satisfaction Data</span></center>**', unsafe_allow_html=True)
 #st.table(airline.head(10))
 st.write("원 데이터셋에 약 10만개의 데이터가 있으며, 훈련셋에는 약 26,000개의 데이터가 있다.")
 st.dataframe(data=airline.head(10), width=None, height=None,  use_container_width=False)
