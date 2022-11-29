@@ -14,6 +14,7 @@ import xg
 import knn
 import joblib
 from PIL import Image
+import xgboost as xgb
 
 # streamlit 앱 제목
 st.title("항공사 고객 만족도 Machine Learning")
