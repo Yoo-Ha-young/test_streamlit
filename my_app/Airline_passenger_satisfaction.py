@@ -116,7 +116,6 @@ def Practice():
    st.sidebar.markdown("# Page 2 ❄️")
 
 page_names_to_funcs = {
-    "main_page": Airline_passenger_satisfaction,
     "Practice": Practice,
 }
 
