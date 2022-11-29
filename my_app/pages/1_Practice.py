@@ -2,8 +2,8 @@
 import streamlit as st
 
 def main_page():
-    st.markdown("# Main page 🎈")
-    st.sidebar.markdown("# Main page 🎈")
+    st.markdown("# Practice")
+    st.sidebar.markdown("# Practice")
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -82,7 +82,7 @@ def page2():
 
        
 page_names_to_funcs = {
-    "Main Page": main_page,
+    "Practice": Practice,
     "Page 2": page2,
 }
 
