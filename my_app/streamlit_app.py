@@ -118,8 +118,7 @@ st.markdown('**<center><span style="color: MidnightBlue; font-size:250%">Thank Y
 
 page_names_to_funcs = {
     "Main Page": main_page,
-#     "Page 2": page2,
-#     "Page 3": page3,
+     "Page 2": page2,
 }
 
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
