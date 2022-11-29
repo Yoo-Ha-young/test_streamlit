@@ -111,13 +111,13 @@ st.write("")
 # Contents of ~/my_app/main_page.py
 
 
-def Practice():
-   st.markdown("# Practice")
-   st.sidebar.markdown("# Page 2 ❄️")
+#def Practice():
+#   st.markdown("# Practice")
+#   st.sidebar.markdown("# Page 2 ❄️")
 
-page_names_to_funcs = {
-    "Practice": Practice,
-}
+#page_names_to_funcs = {
+#    "Practice": Practice,
+#}
 
 #selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
 #page_names_to_funcs[selected_page]()
