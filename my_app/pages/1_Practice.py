@@ -1,14 +1,16 @@
 # Contents of ~/my_app/streamlit_app.py
 import streamlit as st
 
-def main_page():
-    st.markdown("# Practice")
+#def main_page():
+#    st.markdown("# Practice")
     st.sidebar.markdown("# Practice")
 import pandas as pd
 import numpy as np
 import streamlit as st
 import joblib
 
+
+st.sidebar.markdown("# Practice")
 st.title("항공기 만족도 예측 Practice")
 st.subheader("6가지의 머신러닝 모델을 활용하여 변수들을 바꾸어 예측해보기")
 
