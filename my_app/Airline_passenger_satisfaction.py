@@ -17,6 +17,7 @@ from PIL import Image
 import xgboost as xgb
 import shap
 
+
 # streamlit 앱 제목
 st.title("항공사 고객 만족도 Machine Learning")
 
@@ -24,8 +25,9 @@ st.title("항공사 고객 만족도 Machine Learning")
 airline = pd.read_csv("https://raw.githubusercontent.com/syriness/MiniProject_AirlineMachineLearning/main/train.csv")
 
 st.header("데이터 확인")
-st.table(airline.head(10))
+#st.table(airline.head(10))
 st.write("원 데이터셋에 약 10만개의 데이터가 있으며, 훈련셋에는 약 26,000개의 데이터가 있다.")
+st.dataframe(data=airline.head(10), width=None, height=None, *, use_container_width=False)
 
 # st.write("")
 # st.write("")
