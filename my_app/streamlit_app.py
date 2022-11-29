@@ -5,9 +5,9 @@ def main_page():
     st.markdown("# Main page 🎈")
     st.sidebar.markdown("# Main page 🎈")
 
-# def page2():
-#     st.markdown("# Page 2 ❄️")
-#     st.sidebar.markdown("# Page 2 ❄️")
+def 2_page():
+    st.markdown("# Page 2 ❄️")
+    st.sidebar.markdown("# Page 2 ❄️")
 
 
 # 필요 라이브러리 import
