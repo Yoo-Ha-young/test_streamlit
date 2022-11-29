@@ -4,3 +4,9 @@ numpy
 pandas
 seaborn
 joblib
+pandas
+matplotlib==3.5.2
+scikit-learn
+xgboost
+shap
+lightgbm
