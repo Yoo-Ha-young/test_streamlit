@@ -106,3 +106,11 @@ st.write("")
 st.write("")
 
 st.markdown('**<center><span style="color: MidnightBlue; font-size:250%">Thank You!</span></center>**', unsafe_allow_html=True)
+page_names_to_funcs = {
+    "Practice": Practice,
+    "APP": APP,
+}
+
+selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
+page_names_to_funcs[selected_page]()
+# Contents of ~/my_app/main_page.py
