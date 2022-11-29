@@ -21,7 +21,13 @@ image = 'https://image.cnbcfm.com/api/v1/image/107124573-1664221269888-gettyimag
 st.image(image)
 
 # streamlit 앱 제목
-st.title("### 항공사 고객 만족도 Machine Learning")
+
+st.sidebar.markdown("# Practice")
+st.titlest.markdown('**<center><span style="color: #000000; font-size:250%">항공기 만족도 예측 Practice</span></center>**', unsafe_allow_html=True)
+st.subheader.markdown('**<center><span style="color: #999966; font-size:150%">6가지 머신러닝 모델 활용으로 변수들을 바꾸어 예측해보기</span></center>**', unsafe_allow_html=True)
+
+
+#st.title("### 항공사 고객 만족도 Machine Learning")
 
 # 데이터 읽어오기
 airline = pd.read_csv("https://raw.githubusercontent.com/syriness/MiniProject_AirlineMachineLearning/main/train.csv")
