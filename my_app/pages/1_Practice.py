@@ -78,14 +78,14 @@ for i in range(1, 7):
 st.write("")                              
 st.markdown('**<center><span style="color: MidnightBlue; font-size:250%">Thank You!</span></center>**', unsafe_allow_html=True)
 
-def page2():
-    st.markdown("# Page 2 ❄️")
-    st.sidebar.markdown("# Page 2 ❄️")
+#def page2():
+#    st.markdown("# Page 2 ❄️")
+#    st.sidebar.markdown("# Page 2 ❄️")
 
        
 page_names_to_funcs = {
     "Practice": Practice,
-    "Page 2": page2,
+    "APP": APP,
 }
 
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
