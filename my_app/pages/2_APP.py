@@ -1,8 +1,8 @@
 # Contents of ~/my_app/pages/page_2.py
 import streamlit as st
 
-st.markdown("# Page 2 ❄️")
-st.sidebar.markdown("# Page 2 ❄️")
+# st.markdown("# Page 2 ❄️")
+# st.sidebar.markdown("# Page 2 ❄️")
 
 # 필요 라이브러리 import
 import pandas as pd
