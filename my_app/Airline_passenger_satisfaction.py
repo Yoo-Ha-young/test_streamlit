@@ -1,9 +1,9 @@
-# Contents of ~/my_app/streamlit_app.py
+# Contents of ~/my_app/Airline_passenger_satisfaction.py
 import streamlit as st
 
 def main_page():
-    st.markdown("# Main page 🎈")
-    st.sidebar.markdown("# Main page 🎈")
+    st.markdown("# Airline passenger satisfaction")
+    st.sidebar.markdown("# Airline passenger satisfaction")
 
 def page():
     st.markdown("# Page 2 ❄️")
