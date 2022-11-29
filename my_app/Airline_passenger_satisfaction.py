@@ -23,8 +23,8 @@ st.image(image)
 # streamlit 앱 제목
 
 st.sidebar.markdown("# Practice")
-st.titlest.markdown('**<center><span style="color: #000000; font-size:250%">항공기 만족도 예측 Practice</span></center>**', unsafe_allow_html=True)
-st.subheader.markdown('**<center><span style="color: #999966; font-size:150%">6가지 머신러닝 모델 활용으로 변수들을 바꾸어 예측해보기</span></center>**', unsafe_allow_html=True)
+st.markdown('**<center><span style="color: #000000; font-size:250%">항공기 만족도 예측 Practice</span></center>**', unsafe_allow_html=True)
+st.markdown('**<center><span style="color: #999966; font-size:150%">6가지 머신러닝 모델 활용으로 변수들을 바꾸어 예측해보기</span></center>**', unsafe_allow_html=True)
 
 
 #st.title("### 항공사 고객 만족도 Machine Learning")
