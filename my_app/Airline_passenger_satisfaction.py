@@ -1,45 +1,37 @@
 # Contents of ~/my_app/Airline_passenger_satisfaction.py
 import streamlit as st
 
-#def main_page():
-#    st.markdown("# Airline passenger satisfaction")
-#    st.sidebar.markdown("# Airline passenger satisfaction")
+def main_page():
+   st.markdown("# Airline passenger satisfaction")
+   st.sidebar.markdown("# Airline passenger satisfaction")
 
-#def Practice():
-#    st.markdown("# Practice")
-#    st.sidebar.markdown("# Page 2 ❄️")
-    
-#def APP():
-#    st.markdown("# Practice")
-#    st.sidebar.markdown("# Page 2 ❄️")
+def Practice():
+   st.markdown("# Practice")
+   st.sidebar.markdown("# Page 2 ❄️")
 
-
-#page_names_to_funcs = {
-#    "main_page": Airline_passenger_satisfaction,
-#    "Practice": Practice,
-#    "APP": APP,
-#}
+page_names_to_funcs = {
+    "main_page": Airline_passenger_satisfaction,
+    "Practice": Practice,
+}
 
 #selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
 #page_names_to_funcs[selected_page]()
 
 
 
-# 필요 라이브러리 import
-import pandas as pd
-import matplotlib.pyplot as plt
-import streamlit as st
-import kmeans
-import prepro
-import logic
-import tree
-import forest
-import xg
-import knn
-import joblib
-from PIL import Image
-
-st.sidebar.markdown("# APP")
+# # 필요 라이브러리 import
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# import streamlit as st
+# import kmeans
+# import prepro
+# import logic
+# import tree
+# import forest
+# import xg
+# import knn
+# import joblib
+# from PIL import Image
 
 # streamlit 앱 제목
 st.title("항공사 고객 만족도 Machine Learning")
