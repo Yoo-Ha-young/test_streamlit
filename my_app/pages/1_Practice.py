@@ -3,7 +3,7 @@ import streamlit as st
 
 #def main_page():
 #    st.markdown("# Practice")
-    st.sidebar.markdown("# Practice")
+#    st.sidebar.markdown("# Practice")
 import pandas as pd
 import numpy as np
 import streamlit as st
