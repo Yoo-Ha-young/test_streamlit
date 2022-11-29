@@ -6,13 +6,13 @@ def main_page():
     st.sidebar.markdown("# Airline passenger satisfaction")
 
 def page():
-    st.markdown("# Page 2 ❄️")
+    st.markdown("# Practice")
     st.sidebar.markdown("# Page 2 ❄️")
 
 
 
 page_names_to_funcs = {
-    "Main Page": main_page,
+    "Practice": Practice,
      "Page": page,
 }
 
