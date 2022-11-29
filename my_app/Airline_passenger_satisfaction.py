@@ -17,9 +17,11 @@ from PIL import Image
 import xgboost as xgb
 import shap
 
+image = 'https://image.cnbcfm.com/api/v1/image/107124573-1664221269888-gettyimages-463523885-1[…]d06fa636af6.jpeg?v=1668095693&w=740&h=416&ffmt=webp&vtcrop=y'
+st.image(image)
 
 # streamlit 앱 제목
-st.title("항공사 고객 만족도 Machine Learning")
+st.title("### 항공사 고객 만족도 Machine Learning")
 
 # 데이터 읽어오기
 airline = pd.read_csv("https://raw.githubusercontent.com/syriness/MiniProject_AirlineMachineLearning/main/train.csv")
